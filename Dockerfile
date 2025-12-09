@@ -8,7 +8,7 @@ LABEL maintainer="Ham Matage <kiplangathamman@gmail.com>"
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copy your static files to nginx's web directory
-COPY "Php files/" /usr/share/nginx/html/
+COPY "Php files"/ /usr/share/nginx/html/
 
 # Expose port 80
 EXPOSE 80
